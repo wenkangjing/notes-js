@@ -27,3 +27,6 @@ const x3 = new XClassVar();
 console.log('export =');
 console.log('instance:', x3);
 console.log('method:', x3.add);
+
+import { add } from './x-export-variable';
+add(1,1);
